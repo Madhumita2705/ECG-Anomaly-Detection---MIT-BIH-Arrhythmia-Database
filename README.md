@@ -1,4 +1,4 @@
-# ECG Anamoly Detection – MIT-BIH Dataset
+# ECG Anomaly Detection – MIT-BIH Dataset
 
 ## Overview
 This repository contains a stack of projects on ECG arrhythmia detection using the MIT-BIH Arrhythmia Database. The work progresses through multiple phases, starting with beat-level classification and extending into feature engineering, sequence modeling, and explainable AI.

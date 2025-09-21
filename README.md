@@ -7,7 +7,7 @@ This repository contains a stack of projects on ECG arrhythmia detection using t
 **📂 Dataset**
 
 We use the MIT-BIH Arrhythmia Database available on PhysioNet:
-🔗 MIT-BIH Arrhythmia Database – PhysioNet
+🔗[ MIT-BIH Arrhythmia Database – PhysioNet](https://physionet.org/content/mitdb/1.0.0/)
 
 
 **Phase 1: Beat-Level Classification**

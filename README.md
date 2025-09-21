@@ -20,6 +20,8 @@ Model: Implemented a 1D CNN + LSTM hybrid model for beat-level classification.
 
 Code Structure:
 
+ecg-anomaly-detection-result-analysis.ipynb - Comparison file for all 3 approaches
+
 classification_1D CNN.ipynb - simple model with 1D CNN
 
 classification_SMOTE_1D CNN.ipynb - model after using SMOTE on dataset

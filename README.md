@@ -14,19 +14,21 @@ We use the MIT-BIH Arrhythmia Database available on PhysioNet:
 
 Challenge: Dataset was highly imbalanced (Normal beats dominated rare arrhythmia beats).
 
-Solution: Used SMOTE oversampling to balance classes.
+Solution:
 
-Model: Implemented a 1D CNN + LSTM hybrid model for beat-level classification.
+Applied SMOTE oversampling to balance the dataset.
+
+Built and compared 1D CNN baseline (with & without SMOTE) and 1D CNN + LSTM hybrid model.
 
 Code Structure:
 
-ecg-anomaly-detection-result-analysis.ipynb - Comparison file for all 3 approaches
+ecg-anomaly-detection-result-analysis.ipynb → Comparison of all 3 approaches.
 
-classification_1D CNN.ipynb - simple model with 1D CNN
+classification_1D CNN.ipynb → Simple 1D CNN model.
 
-classification_SMOTE_1D CNN.ipynb - model after using SMOTE on dataset
+classification_SMOTE_1D CNN.ipynb → CNN model trained after SMOTE balancing.
 
-classification_SMOTE_1D CNN+LSTM.ipynb - model using SMOTE along with hybrid 1D CNN and LSTM model
+classification_SMOTE_1D CNN+LSTM.ipynb → Hybrid CNN + LSTM with SMOTE.
 
 
 **Phase 2: Feature Extraction (Classical ML)**
@@ -35,5 +37,9 @@ classification_SMOTE_1D CNN+LSTM.ipynb - model using SMOTE along with hybrid 1D 
 **Phase 3: Sequence Modeling (Rhythm Prediction)**
 
 
-**Phase 4: Explainable AI**
+**Phase 4: Image-Based Representations**
+
+
+**Phase 5: Explainable AI**
+
 
